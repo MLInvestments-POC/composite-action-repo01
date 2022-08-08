@@ -14,5 +14,5 @@ runs:
       shell: bash
     - run: echo Third Hello ${{ inputs.who-to-greet }}.
       shell: bash
-    - run: echo Fourth Hello ${{ inputs.who-to-greet }}.
+    - run: echo Hello ${{ inputs.who-to-greet }}.
       shell: bash
